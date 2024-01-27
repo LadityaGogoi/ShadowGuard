@@ -33,6 +33,7 @@ The ShadowGuard Browser Extension is a powerful tool designed to enhance user ex
    - Users can easily differentiate between content and advertisements, promoting a more transparent online experience.
 9. **Terms and Conditions Clarity**:
    - The NLP analysis of terms and conditions provides summarized insights in the side panel.
+
    - Users can quickly grasp the meaning behind complex legal language, fostering transparency and trust.
 
 ## 4. Methodology
@@ -41,6 +42,8 @@ The ShadowGuard Browser Extension is a powerful tool designed to enhance user ex
 - **ML Models**: Python, Scikit-learn, Numpy, Pandas, Joblib, Flask
 
 ### 4.2 Sample UI
+![analyze](https://github.com/Lobi29/ShadowGuard/assets/108052802/40af267e-3b05-48f8-8594-5391c7907e4e)
+![feedback](https://github.com/Lobi29/ShadowGuard/assets/108052802/b703cb44-b869-4201-84e6-43bb6b6de931)
 
 
 ### 4.3 ML Models
