@@ -1,0 +1,214 @@
+html, body {
+    font-size: 24px;
+    margin: 0;
+    min-height: 180;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.header h1 {
+    color: #FFB534;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    /* margin-right: 10px; Adjust the spacing between list items */
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #111;
+    /* color: #333; Set your desired text color */
+    /* padding: 8px 16px; Adjust the padding as needed */
+    /* border: 1px solid #ccc; Add a border for separation */
+    /* border-radius: 4px; Optional: Add rounded corners */
+}
+
+.hide {
+    display: none;
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: 3px solid #FFB534;
+}
+
+#category2Details {
+    margin-top: 1rem;
+}
+
+.analyzeContainer {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px dashed #65B741;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 50px;
+    border: 2px solid #FFB534;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #65B741;
+    border: none;
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px 1px #FFB534;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #41C46E;
+}
+
+.threadContainer {
+    margin-top: 1rem;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.threadContainer h1 {
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+}
+
+.threadBox {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.level1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.level2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.level2 p {
+    font-size: 20px;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.level3 {
+    padding-left: 10px;
+    border-left: 2px dashed #65B741;
+}
+
+.level4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.level5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.iconOn {
+    width: 30px;
+    height: 30px;
+}
+
+.iconCart {
+    width: 35px;
+    height: 35px;
+}
+
+.iconCheck {
+    width: 20px;
+    height: 20px;
+}
+
+#category1Details {
+    margin-top: 1rem;
+}
+
+.feedbackHeading {
+    font-size: 16px;
+    color: #ccc;
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.tickBox {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.tickBox img {
+    width: 20px;
+    height: 20px;
+}
+
+.tickBox p {
+    font-size: 16px;
+}
+
+.messageContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.messageTitle {
+    padding-bottom: 40px;
+}
+
+.uploadContainer {
+    padding: 10px;
+    border-top: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

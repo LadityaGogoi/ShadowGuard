@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/popup.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+            ShadowGuard.
+        </h1>
+        <ul>
+            <li><a href="#" id="category1">Feedback</a></li>
+            <li><a href="#" id="category2">Detector</a></li>
+            <li><a href="#" id="category3">Settings</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- Feedback -->
+        <div id="category1Details" class="details">
+            <p class="feedbackHeading">Please select the type of the feedback</h1>
+            <div class="tickBox">
+                <img src="./images/icons8-unchecked-30.png" alt="icon">
+                <p>scarcity</p>
+            </div>
+            <div class="tickBox">
+                <img src="./images/icons8-unchecked-30.png" alt="icon">
+                <p>fake news</p>
+            </div>
+            <div class="tickBox">
+                <img src="./images/icons8-unchecked-30.png" alt="icon">
+                <p>urgency</p>
+            </div>
+            <div class="tickBox">
+                <img src="./images/icons8-unchecked-30.png" alt="icon">
+                <p>misleading</p>
+            </div>
+            <div class="tickBox">
+                <img src="./images/icons8-unchecked-30.png" alt="icon">
+                <p>other</p>
+            </div>
+            <div class="messageContainer">
+                <p class="messageTitle">Please briefly describe the issue</p>
+                <div class="uploadContainer">
+                    <img src="./images/icons8-plus-48.png" alt="iconPlus">
+                    <p>Upload screenshot (optional)</p>
+                </div>
+            </div>
+            <button class="feedback-button" type="button">Submit</button>
+        </div>
+
+        <div id="category2Details" class="details">
+            <div class="analyzeContainer">
+                <img src="./images/logo.png" alt="image" id="logo">
+                <p class="label">dark patterns</p>
+                <p class="number">n/a</p>
+                <button class="analyze-button" type="button">ANALYZE SITE</button>
+            </div>
+            <div class="threadContainer">
+                <h1>Potential Threads</h1>
+                <div class="threadBox">
+                    <img src="./images/icons8-cart-48.png" alt="cart" class="iconCart">
+                    <div class="level1">
+                        <div class="level2">
+                            <p>Basket Sneaking Detection</p>
+                            <img src="./images/icons8-on-48.png" alt="iconOn" class="iconOn">
+                        </div>
+                        <p class="threadDesc">
+                            Website tries to add some additional items, please check before checking out
+                        </p>
+                        <div class="level3">
+                            <p class="level4">Items List...</p>
+                            <div class="level5">
+                                <img src="./images/icons8-check-48.png" alt="iconCehck" class="iconCheck">
+                                <p>Iphone 14</p>
+                            </div>
+                            <div class="level5">
+                                <img src="./images/icons8-check-48.png" alt="iconCehck" class="iconCheck">
+                                <p>Samsung ultra 12</p>
+                            </div>
+                            <div class="level5">
+                                <img src="./images/icons8-check-48.png" alt="iconCehck" class="iconCheck">
+                                <p>Nokia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="threadContainer">
+                <h1>Potential Adds</h1>
+                <div class="threadBox">
+                    <img src="./images/icons8-advertise-64.png" alt="cart" class="iconCart">
+                    <div class="level1">
+                        <div class="level2">
+                            <p>Disguised Ads</p>
+                            <img src="./images/icons8-on-48.png" alt="iconOn" class="iconOn">
+                        </div>
+                        <p class="threadDesc">
+                            Distinguish adds from the main content of the Website
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="category3Details" class="details">
+        </div>
+    </div>
+
+    <script src="js/popup.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
